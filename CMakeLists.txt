@@ -34,7 +34,7 @@ find_package(GTest CONFIG REQUIRED)
 add_library(${PROJECT_NAME} STATIC
   # enum your files and delete this comment
         ${CMAKE_CURRENT_SOURCE_DIR}/sources/example.cpp
-        include/Stack2.h include/Node.h include/Stack1.h include/example.h)
+        include/Stack2.h include/Node.h include/Stack1.h include/example.hpp)
 
 add_executable(demo
   ${CMAKE_CURRENT_SOURCE_DIR}/demo/main.cpp
